@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+          <title>
+            RKGIT:Vlog
+          </title>
+          <link rel="stylesheet" href="style.css">
+          <script src="https://kit.fontawesome.com/70d402995c.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+         <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/rkgitlogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="vlog.html">VLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+               </nav>
+             <h1>Programs for 2023.</h1>
+</section> 
+
+<section class="vlog-content">
+
+    <div class="row">
+        <div class="vlog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our certificate and online programs for 2022-2023.</h2>
+            <p>Here's so much more to college than just attending classes. You have got dorm life and campus events. During the day, you could be hanging out on the quad with your besties, and at nights, you are having milkshakes at a diner. It's a new experience you'll embrace to the fullest and remember forever, which is why you are in need of some Instagram captions for college life pics.</p>
+            
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type ="text" placeholder="Enter Name">
+                    <input type ="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="vlog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Bussiness Analytics</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Pharmacy</span>
+                <span>12</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    
+<section class="footer">
+    <p>We are promised to make perfect your professional life.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <h5>Copyright © 2022 Shubham Priyam Patel All rights reserved.</h5>
+    </div>
+</section>
+
+
+         <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+         </script>
+    </body>
+</html>

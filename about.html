@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+          <title>
+            RKGIT:About Us
+          </title>
+          <link rel="stylesheet" href="style.css">
+          <script src="https://kit.fontawesome.com/70d402995c.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+         <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/rkgitlogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="vlog.html">VLOG</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+</section> 
+
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the India's leading institute.</h1>
+            <p>To continually develop excellent professional capable of providing sustainable solutions to challenging problems in their fields and prove responsible global citizens.We wish to serve the nation by becoming reputed deemed university for providing value based professional education.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are promised to make perfect your professional life.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <h5>Copyright © 2022 Shubham Priyam Patel All rights reserved.</h5>
+    </div>
+</section>
+
+
+         <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+         </script>
+    </body>
+</html>
